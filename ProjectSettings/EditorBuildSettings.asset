@@ -9,8 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu Scene Beta.unity
     guid: 7dddd381b9cb2ed418ce41447c08c4e9
   - enabled: 1
+    path: Assets/MansionScene.unity
+    guid: af35ef8473f101e439d0997a089bdcad
+  - enabled: 1
     path: Assets/Scenes/First Scene Beta.unity
-    guid: 36fe561b5c518164ea9d752f688ea454
+    guid: 5ba706a8b42d57447907198ea2983af0
   - enabled: 1
     path: Assets/Scenes/End Scene Beta.unity
     guid: 5fae83b274dd492428775078dfe6b786
