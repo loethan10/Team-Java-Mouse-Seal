@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class SimpleMovement : MonoBehaviour
 {
-    public float speed = 7;
+    public float speed = 7f;
     private float move;
     private float uppies;
-    
+        
     private Rigidbody2D rb;
 
     bool facingRight = true;
@@ -28,13 +28,13 @@ public class SimpleMovement : MonoBehaviour
         //rb.velocity = new Vector2(move * speed, rb.velocity.y);
         //rb.velocity = new Vector2(uppies * speed, rb.velocity.x);
 
-        if (move > 0 && !facingRight){
-            Flip();
-        }
+        // if (move > 0 && !facingRight){
+        //     Flip();
+        // }
 
-        if (move < 0 && facingRight){
-            Flip();
-        }
+        // if (move < 0 && facingRight){
+        //     Flip();
+        // }
     }
 
     void Flip(){
