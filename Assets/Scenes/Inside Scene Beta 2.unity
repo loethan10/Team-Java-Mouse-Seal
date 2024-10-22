@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 329687355}
   - component: {fileID: 329687354}
   - component: {fileID: 329687356}
+  - component: {fileID: 329687357}
   m_Layer: 0
   m_Name: MainPlayer
   m_TagString: Untagged
@@ -216,13 +217,40 @@ Animation:
   m_GameObject: {fileID: 329687353}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 0}
+  m_Animation: {fileID: 7400000, guid: ed89c339b27c644d08fd3705420879c4, type: 2}
   m_Animations:
-  - {fileID: 7400000, guid: 84fc5812a3ffd410fbe08499f605bdb5, type: 2}
+  - {fileID: 7400000, guid: ed89c339b27c644d08fd3705420879c4, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!50 &329687357
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329687353}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &376782773
 GameObject:
   m_ObjectHideFlags: 0
@@ -417,8 +445,9 @@ MonoBehaviour:
   m_Enabled: 1
 <<<<<<< Updated upstream:Assets/Scenes/Inside Scene Beta 2.unity
   serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
+  m_Animation: {fileID: 7400000, guid: f3ba536fe6cdb481aa4f61128331fbae, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: f3ba536fe6cdb481aa4f61128331fbae, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
