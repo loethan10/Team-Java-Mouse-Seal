@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+using UnityEngine.SceneManagement;
+
 public class PlayerHealth : MonoBehaviour
 {
     public int health;
@@ -17,7 +19,7 @@ public class PlayerHealth : MonoBehaviour
         health -= amount;
         if(health <= 0)
         {
-            Destroy(gameObject);
+            SceneManager.LoadScene(3);
         }
     }
 }

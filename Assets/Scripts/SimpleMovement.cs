@@ -28,13 +28,13 @@ public class SimpleMovement : MonoBehaviour
         //rb.velocity = new Vector2(move * speed, rb.velocity.y);
         //rb.velocity = new Vector2(uppies * speed, rb.velocity.x);
 
-        // if (move > 0 && !facingRight){
-        //     Flip();
-        // }
+        if (move > 0 && !facingRight){
+             Flip();
+        }
 
-        // if (move < 0 && facingRight){
-        //     Flip();
-        // }
+        if (move < 0 && facingRight){
+             Flip();
+        }
     }
 
     void Flip(){

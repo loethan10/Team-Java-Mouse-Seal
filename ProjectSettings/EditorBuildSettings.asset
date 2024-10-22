@@ -12,8 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Mansion Scene Beta 2.unity
     guid: 5b2011f196fb6d44f925af49944d3e98
   - enabled: 1
-    path: Assets/Scenes/Inside Scene Beta 2.unity
-    guid: 7ab0261ca3441c8479f89f1c9c1e8853
+    path: Assets/Scenes/Inside Out Again.unity
+    guid: 9c1b435f57d8e074c823b3b7020c5db2
   - enabled: 1
     path: Assets/Scenes/End Scene Beta.unity
     guid: 5fae83b274dd492428775078dfe6b786
